@@ -1,0 +1,312 @@
+/* Efeitos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagem-de-fundo,
+.imagem-de-fundo2,
+.imagem-de-fundo3,
+.imagem-de-fundo4,
+.imagem-de-fundo5 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Topo da pagina */
+
+.topo {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #604829;
+}
+
+.imagem-topo {
+    width: 100px;
+    position: relative;
+    left: 15%;
+}
+
+.topo div {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.texto-1 a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+    letter-spacing: 2px;
+    color: #c4a47c;
+}
+
+/* imagem de fundo 1 */
+
+.imagem-de-fundo {
+    height: 100vh;
+    background-image: url(./parallax-imagem1.png);
+}
+
+.texto-2 {
+    font-family: "Fraunces", sans-serif;
+    font-size: 100px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    right: 0;
+    left: 0;
+    letter-spacing: 2px;
+}
+
+/* paragrafo */
+
+.subtitulo {
+    background-color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.subtitulo h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #c4a47c;
+    letter-spacing: 2px;
+}
+
+.subtitulo p {
+    color: #666;
+    font-family: "Lato", sans-serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+    max-width: 1024px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* imagem de fundo 2 */
+
+.imagem-de-fundo2 {
+    height: 50vh;
+    background-image: url(./parallax-imagem2.jpg);
+}
+
+.imagem-de-fundo2 h3{
+    font-family: "Fraunces", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px;
+
+    background-color: #604829;
+    color: #fff;
+
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+/* imagem de fundo 3 */
+
+.imagem-de-fundo3 {
+    height: 50vh;
+    background-image: url(./parallax-imagem3.jpg);
+}
+
+.imagem-de-fundo3 h3{
+    font-family: "Fraunces", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px;
+
+    background-color: #604829;
+    color: #fff;
+
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+/* imagem de fundo 4 */
+
+.imagem-de-fundo4 {
+    height: 100vh;
+    background-image: url(./parallax-imagem4.png);
+    position: relative;
+}
+
+.imagem-de-fundo4 iframe {
+    position: absolute;
+    top: 23%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.imagem-de-fundo4 h2 {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+
+    color: #fff;
+    background-color: #604829;
+    
+    width: 500px;
+    padding: 10px;
+
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.imagem-de-fundo4 div {
+    font-family: "Fraunces", sans-serif;;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0 5px 2px black;
+    text-align: center;
+    line-height: 20px;
+
+    color: #fff;
+    background-color: #604829;
+    
+    width: 500px;
+    padding: 10px;
+
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+/* imagem de fundo 5 */
+
+.imagem-de-fundo5 {
+    height: 85vh;
+    background-image: url(./cafeteria.jpg);
+}
+
+.imagem-de-fundo5 h2 {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+
+    color: #fff;
+
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-shadow: 0 5px 10px white;
+    text-align: center;
+}
+
+.lista {
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+.lista li {
+    position: relative;
+}
+
+.lista li h3 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.lista li div {
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #c4a47c;
+}
+
+.lista li p, .fechado {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.lista li .fechado {
+    color: #8a0000;
+    font-size: 20px;
+}
+
+.lista li p {
+    color: #ffffff;
+}
+
+/* Rodape */
+
+.rodape {
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+
+    background-color: black;
+    color: #fff;
+    
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 34px;
+}
+
+.rodape span {
+    color: #c4a47c;
+}
+
+.rodape a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+
+    background-image: url(./seta-para-cima.png);
+    border-radius: 20px;
+    background-size: cover;
+    background-color: #c4a47c;
+    background-position: center;
+}
